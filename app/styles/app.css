@@ -7,7 +7,7 @@ body {
     margin: 0 auto;
     padding: 0 1rem;
     background-color:#18191A;
-    color:#FF8800;
+    color:#FF9926;
     display: flex;
     flex-direction: column;
     max-width: 1024px;
@@ -33,7 +33,7 @@ h3 {
 
 nav,
 section {
-  border-block-end: 1px solid #FF8800;
+  border-block-end: 1px solid #FF9926;
 }
 
 header nav {
@@ -54,7 +54,7 @@ header nav li {
 
 header nav li a {
   text-decoration: none;
-  color: #FF8800;
+  color: #FF9926;
 }
 
 .bio {
@@ -93,7 +93,7 @@ header nav li a {
 a.btn {
   display: inline-flex;
   align-items: center;
-  background: #FF8800;
+  background: #FF9926;
   color: #18191A;
   text-decoration: none;
   padding: 0 1rem;
@@ -167,7 +167,7 @@ footer ul li {
 footer a {
   display: inline-flex;
   flex-direction: column;
-  color: #FF8800;
+  color: #FF9926;
   text-decoration: none;
   font-weight: 700;
   align-items: center;
@@ -179,7 +179,7 @@ footer .copyright {
 
 footer .link-icon {
   margin-block-start: 0.5rem;
-  background: #FF8800;
+  background: #FF9926;
   color:  #18191A;
   width: 3rem;
   height: 3rem;

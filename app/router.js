@@ -10,4 +10,5 @@ Router.map(function () {
   this.route('contact');
   this.route('resume');
   this.route('bio', { path: '/' });
+  this.route('blog');
 });
