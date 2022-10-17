@@ -1,14 +1,19 @@
 // MongoDB Playground
 // Use Ctrl+Space inside a snippet or a string literal to trigger completions.
 
-const database = 'vassilating-tesseract';
-const collection = 'projects';
-
 // Create a new database.
-use(database);
+use('vt-blog');
+db.articles.updateMany({}, {$set: {"type": "articles"}})
 
-// Create a new collection.
-db.createCollection(collection);
+/*
+db.articles.insertOne({title: "Blog Post 2", sub_title: "a second, test post", date: new Date(), content: "This is the body of the Post" })
+
+db.articles.insertMany(
+  [
+    {title: "Blog Post 3", sub_title: "in which we insert many", date: new Date(), content: "This is the body of another Post" }, 
+    {title: "Blog Post 4", sub_title: "two is many, right?", date: new Date(), content: "This is the body of yet one  more Post" }
+  ]
+);
 
 // The prototype form to create a regular collection:
 /* db.createCollection( <name>,
@@ -19,7 +24,7 @@ db.createCollection(collection);
     max: <number>,
     storageEngine: <document>,
     validator: <document>,
-    validationLevel: <string>,
+    validationLevel: <string>,a second, test post
     validationAction: <string>,
     indexOptionDefaults: <document>,
     viewOn: <string>,
